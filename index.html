@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <Title> Personal Portfolio | Resposive Website Design </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Portfolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    </header>
+  <section class="banner" id="home">
+    <div class="textBx">
+      <h2>Hello, I'm <br><span>Danyal Abbasi</span></h2>
+      <h3>I work in IMT</h3>
+      <a href="#about" class="btn">About Me</a>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="heading">
+      <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx w50">
+        <h3>I work in IMT</h3>
+         <br>Currently working as a Tier 1 Technician at <a href="https://hollandbloorview.ca/">Holland Bloorview Kids Rehabilitation Hospital</a>.</p>
+        </div>
+        <div class="w50">
+          <img src="AboutMe.jpg" class="img">
+        </div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <div class="heading W">
+        <h2>Work</h2>
+      </div>
+      <div class="content">
+        <div class="workBx">
+          <h2>Holland Bloorview Kids Rehabilitation Hospital</h2>
+          <p>Working as a Helpdesk Technician. I provide vital support to medical professionals, troubleshooting hardware and software issues with a focus on urgent technical issues. I'm prioritizing helpdesk tickets based on patient care urgency, ensuring seamless healthcare service delivery. I also collaborate with cross-functional teams to implement effective solutions for complex issues, and I'm committed to upholding data security and patient confidentiality.</p>
+        </div>
+        <div class="workBx">
+          <h2>Holland Bloorview Kids Rehabilitation Hospital</h2>
+          <p>Worked as a Receptionist. Acted as a liason, dealing with new situations and solving problems for clients and staff. Performed daily tasks such as meditech reports
+             and code paging systems. </p>
+        </div>
+        <div class="workBx">
+          <h2>Accessible Professionals Inc.</h2>
+          <p>Worked as a Web Developer Intern, I revamped the company's website, ensuring database records were updated accordingly. I applied comtemporary design principles to create new website pages. I learned and implemented SEO strategies to enhance website traffic.</p>
+        </div>
+        <div class="workBx">
+          <h2>Toronto Police Services</h2>
+          <p>Worked as a youth intern. Learned how a big organization like Toronto Police Services works and got to know inner works of the department system. Working as a youth intern, completed administrative tasks including organizing trespass letters.
+            Organized community reach out events and workshops to educate the community on current afairs.</p>
+        </div>
+        <div class="workBx">
+          <h2>Workflow International Inc.</h2>
+          <p>Worked as a co-op student. Learned and implemented a database management system. Wrote queries in Microsoft SQL Server Management Studio.
+            Wrote reports in the report writer program in Deskflow Enterprise Software.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="heading Ski">
+        <h2>Skills Profile</h2>
+      </div>
+      <div class="content">
+        <div class="skillsBx">
+          <h2>Office</h2>
+          <p>Excel, Word, and Powerpoint: Proficient.</p>
+        </div>
+        <div class="skillsBx">
+          <h2>Programming</h2>
+          <p>Java, C, C++, SQL, HTML, JavaScript, CSS,  Python, Deskflow and SQL Server Management Studio: Working Knowledge.</p>
+        </div>
+        <div class="skillsBx">
+          <h2>Languages</h2>
+          <p>English, Urdu: fluent.</p>
+          <p>Punjabi, Hindi: oral.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="heading Edu">
+        <h2>Educational Background</h2>
+      </div>
+      <div class="content">
+        <div class="educationBx">
+          <h2>York University</h2>
+          <p>Graduated with an honours bachelor of science degree.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="heading W">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Contact Info</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+                <div class="text">
+                  <h3>Address</h3>
+                  <p>71 Thorncliffe Park Drive, <br>Toronto, Ontario,<br>M4H1L3</p>
+                </div>
+              </div>
+              <div class="box">
+                  <div class="text">
+                    <h3>Phone</h3>
+                    <p>(647) 916-6247</p>
+                  </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                      <h3>Email</h3>
+                      <p>danyal07@my.yorku.ca</p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="formBx">
+            <form action="https://formspree.io/f/mknkbrln" method="POST" id="my-form">
+              <h3>Message Me</h3>
+              <input type="text" name="Full Name" placeholder="Full Name">
+              <input type="email" name="Email" placeholder="Email">
+              <textarea placeholder="Your Message" name="Message"></textarea>
+              <button type="submit">Send</button>
+            </form>
+            <div id="status" class="">Success</div>
+          </div>
+        </div>
+      </section>
+      <script src="main.js"></script>
+    </body>
+    </html>
